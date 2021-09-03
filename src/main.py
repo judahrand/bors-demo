@@ -7,4 +7,4 @@ def drive():
     return True
 
 def onland():
-    return True
+    return bifurcate()
