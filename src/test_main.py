@@ -11,3 +11,6 @@ class TestMain(TestCase):
 
     def test_onland(self):
         self.assertTrue(main.onland())
+
+    def test_park(self):
+        self.assertTrue(main.park())

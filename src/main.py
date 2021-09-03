@@ -8,3 +8,6 @@ def drive():
 
 def onland():
     return True
+
+def park():
+    return True
