@@ -23,7 +23,9 @@ jobs:
           python-version: 3.9.6
 
       - name: Unit test
-        run: python -m unittest
+        run: |
+          sleep 30
+          python -m unittest
 
   ci-success:
     name: ci
