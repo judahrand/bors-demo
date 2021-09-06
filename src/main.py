@@ -3,7 +3,6 @@ def bifurcate():
 
 
 def drive():
-    raise RuntimeError
     return True
 
 def onland():
